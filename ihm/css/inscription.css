@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    background-color: #ffffff;
+    height: 585px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    background-color: #3335347e;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 8%;
+    left: 34%;
+    padding: 15px;
+}
+
+.d_naiss {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.in_d_naiss,
+.d_naiss {
+    margin: .4rem 0;
+}
+
+.date {
+    order: 2;
+}
+
+.np {
+    order: 1;
+}
+
+.mail {
+    order: 3;
+}
+
+.bt {
+    order: 5;
+    transition: 0.2s;
+}
+
+.mp {
+    order: 4;
+}
+
+.np {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=date],
+input[type=password],
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #2a362ad5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #33d383;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*___________________corp de la page_______*/
+
+.corp {
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    background-color: #d39333;
+}
+
+.floue {
+    width: 40%;
+    background-color: #d3339e;
+}

@@ -1,0 +1,111 @@
+.page_3 {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background: rgb(26, 197, 126);
+    height: 100vh;
+}
+
+.contact_text {
+    background: rgb(212, 131, 8);
+    order: 1;
+    width: 30%;
+}
+
+.formulaire {
+    background: rgb(205, 255, 228);
+    order: 2;
+    width: 70%;
+}
+
+.info {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 430px;
+    height: 400px;
+    top: 20%;
+    left: 30%;
+    background: rgb(115, 115, 116);
+}
+
+.n_p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    order: 1;
+}
+
+.nom {
+    order: 1;
+}
+
+.prenom {
+    order: 2;
+}
+
+.objet {
+    order: 3;
+}
+
+.mail {
+    order: 2;
+}
+
+.message {
+    order: 4;
+}
+
+.bt_envoyer {
+    order: 5;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea,
+input[type=text],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #2a362ad5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+option[type=no] {
+    color: #999;
+}
+
+.contact {
+    position: relative;
+    top: 100px;
+    left: 27px;
+    font-size: 56px;
+}
+
+.livraison {
+    position: relative;
+    top: 400px;
+    left: 27px;
+}
